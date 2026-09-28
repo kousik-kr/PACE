@@ -1,0 +1,11 @@
+{
+  "estimated_points": 0,
+  "figures": [
+    "exact_reference_final",
+    "bounded_policy_final",
+    "scalability_final",
+    "algorithm_sensitivity_final",
+    "workload_sensitivity_final",
+    "nyc_profile_final"
+  ]
+}

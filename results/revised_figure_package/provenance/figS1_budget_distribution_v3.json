@@ -1,0 +1,29 @@
+{
+  "figure_name": "figS1_budget_distribution_v3",
+  "suggested_figure_number": "S1",
+  "source_files": [
+    {
+      "original_relative_to_q1_figures_v2": "plot_data/scalability_budget_audit.csv",
+      "copy_relative_to_v3": "plot_data/scalability_budget_audit.csv",
+      "sha256": "770ecba85604999893aa5ae5842c74c1d762d8a23cf77c8310c9a2712770f713"
+    },
+    {
+      "original_relative_to_q1_figures_v2": "derived_values/scalability_budget_summary.csv",
+      "copy_relative_to_v3": "plot_data/scalability_budget_summary.csv",
+      "sha256": "1d50fb33674426e602e5be06ab759de415c89dd835017a4c5eb7db8765bbe14f"
+    }
+  ],
+  "exact_input_rows_filters": "Budget observations CSV lines 2–601: all 600 rows; summary CSV lines 2–4: NY/FLA/CAL. Overall summary line 5 preserved for validation, not drawn as a fourth row.",
+  "transformation": "Stored min/Q1/median/Q3/max and all exact budget_min observations retained. n_queries read from summary. Quartiles independently checked with inclusive quantiles; no runtime inferred.",
+  "script": "scripts/plot_budget_distribution.py",
+  "script_sha256": "6e5bcb7b5fa9600a3a610c54afe7121dece585dbcb82175d9500997b90eba162",
+  "shared_script": "scripts/common.py",
+  "shared_script_sha256": "08ec341ca22a6a30e3c98ece23de8b5b00f713195f40081da8f0391e8f804600",
+  "builder_sha256": "ec0786d400fd1fc0a17a52e07b157a55065e2390c71a2d436c6bb04907ce07e6",
+  "final_pdf": "figures/figS1_budget_distribution_v3.pdf",
+  "final_pdf_sha256": "c94c70303795c4cabb749665e23e3255eb7c9b3a7dc66173398915da6d465998",
+  "final_png": "previews/figS1_budget_distribution_v3.png",
+  "final_png_sha256": "121986deeb5ecc4071eda402bff54da6fc599748f515b07d61203cb87f2479e7",
+  "timestamp_utc": "2026-09-10T06:42:40.014601+00:00",
+  "statement": "No experiments were rerun. Figure derived exclusively from frozen data under q1_figures_v2."
+}

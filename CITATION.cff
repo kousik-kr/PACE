@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Cite the PACE artifact after the authors provide verified bibliographic metadata and approve a release version."
+title: "PACE research artifact (author review package)"
+version: "0.1.0-review"
+date-released: "2026-09-28"
+authors: []
+abstract: >-
+  Reproducibility and code-to-paper audit package for PACE: an efficient
+  framework for constrained preference path profiles in large time-dependent
+  road networks. Author and manuscript metadata remain pending.

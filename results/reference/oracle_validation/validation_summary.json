@@ -1,0 +1,45 @@
+{
+  "additional_pace_x_compression_cases": 64,
+  "deterministic_fixture_cases": 9,
+  "existing_independent_oracle_found": true,
+  "fixed_seed": "0x50414345L",
+  "focused_test_suites": [
+    {
+      "errors": 0,
+      "failures": 0,
+      "path": "target/surefire-reports/TEST-edu.ipcmax.testoracle.PaceExactOracleDifferentialTest.xml",
+      "skipped": 0,
+      "tests": 11,
+      "time_seconds": 3.56
+    },
+    {
+      "errors": 0,
+      "failures": 0,
+      "path": "target/surefire-reports/TEST-edu.ipcmax.core.pcmax.PacePublicApiOracleIntegrationTest.xml",
+      "skipped": 0,
+      "tests": 9,
+      "time_seconds": 0.63
+    }
+  ],
+  "frozen_artifacts_modified": false,
+  "independent_point_probe_cases": 9,
+  "infeasible_cases_tested": 3,
+  "instances_failed": 0,
+  "instances_passed": 1009,
+  "instances_tested": 1009,
+  "large_network_experiments_rerun": false,
+  "multi_cell_cases_tested": 6,
+  "new_oracle_created": false,
+  "ny_controlled_reference_scope": "GLOBAL_CERTIFIED on deterministic induced NY-CTRL instance only",
+  "oracle_independent_of_pace_candidate_generation": true,
+  "pace_x_profiles_exactly_match_oracle": true,
+  "path_length_and_stable_id_contract_cases_tested": 1,
+  "path_length_and_stable_id_contract_test": "src/test/java/edu/ipcmax/core/pcmax/EnvelopeContractTest.java",
+  "path_length_and_stable_id_tie_fixture_in_independent_full_profile_oracle": false,
+  "remaining_claim_boundary": "micro-instance implementation validation; does not prove full-NY PACE-X exactness",
+  "score_budget_equality_tie_cases_tested": 1,
+  "seeded_full_profile_cases": 1000,
+  "singleton_endpoint_cases_tested": 1,
+  "ties_tested": 2,
+  "travel_tie_cases_tested": 1
+}

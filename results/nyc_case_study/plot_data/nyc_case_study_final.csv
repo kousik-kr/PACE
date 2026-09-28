@@ -1,0 +1,15 @@
+record_type,query_id,cell_index,path_label,start_min,end_min,cell_type,score,travel_time_min,path_signature,source
+selected_cell,NYC-Q012-MORNING-R20,1,P1,420,460,interval,17.0,6.512005512521488,2498150cdd5c04d7,experiments/results/Final-result/NYC-real-shuttle-v2/results/diagnostic_30s.jsonl
+selected_cell,NYC-Q012-MORNING-R20,2,P2,461,461,singleton,38.0,8.277914069049984,0e4c2dbd29be4faa,experiments/results/Final-result/NYC-real-shuttle-v2/results/diagnostic_30s.jsonl
+selected_cell,NYC-Q012-MORNING-R20,3,P3,462,477,interval,86.0,8.118533696116184,f890ebdb6f0f8f3d,experiments/results/Final-result/NYC-real-shuttle-v2/results/diagnostic_30s.jsonl
+selected_cell,NYC-Q012-MORNING-R20,4,P4,478,478,singleton,42.0,8.34717104068801,26384623d16e7a60,experiments/results/Final-result/NYC-real-shuttle-v2/results/diagnostic_30s.jsonl
+selected_cell,NYC-Q012-MORNING-R20,5,P2,479,479,singleton,38.0,8.362124649940995,0e4c2dbd29be4faa,experiments/results/Final-result/NYC-real-shuttle-v2/results/diagnostic_30s.jsonl
+selected_cell,NYC-Q012-MORNING-R20,6,P1,480,517,interval,17.0,6.2623259269653975,2498150cdd5c04d7,experiments/results/Final-result/NYC-real-shuttle-v2/results/diagnostic_30s.jsonl
+selected_cell,NYC-Q012-MORNING-R20,7,P5,518,524,interval,38.0,8.204587563365846,6fb12d7de0ed9bde,experiments/results/Final-result/NYC-real-shuttle-v2/results/diagnostic_30s.jsonl
+selected_cell,NYC-Q012-MORNING-R20,8,P1,525,540,interval,17.0,5.83590551571794,2498150cdd5c04d7,experiments/results/Final-result/NYC-real-shuttle-v2/results/diagnostic_30s.jsonl
+score_profile_segment,NYC-Q012-MORNING-R20,,P1,420,540,profile_segment,17,,2498150cdd5c04d7,experiments/results/Final-result/NYC-real-shuttle-v2/processed/NYC-REAL-V2/score_functions.jsonl.gz; exact corrected-V2 replay
+score_profile_segment,NYC-Q012-MORNING-R20,,P2,461,479,profile_segment,38,,0e4c2dbd29be4faa,experiments/results/Final-result/NYC-real-shuttle-v2/processed/NYC-REAL-V2/score_functions.jsonl.gz; exact corrected-V2 replay
+score_profile_segment,NYC-Q012-MORNING-R20,,P3,462,477,profile_segment,86,,f890ebdb6f0f8f3d,experiments/results/Final-result/NYC-real-shuttle-v2/processed/NYC-REAL-V2/score_functions.jsonl.gz; exact corrected-V2 replay
+score_profile_segment,NYC-Q012-MORNING-R20,,P4,462,475,profile_segment,43,,26384623d16e7a60,experiments/results/Final-result/NYC-real-shuttle-v2/processed/NYC-REAL-V2/score_functions.jsonl.gz; exact corrected-V2 replay
+score_profile_segment,NYC-Q012-MORNING-R20,,P4,476,478,profile_segment,42,,26384623d16e7a60,experiments/results/Final-result/NYC-real-shuttle-v2/processed/NYC-REAL-V2/score_functions.jsonl.gz; exact corrected-V2 replay
+score_profile_segment,NYC-Q012-MORNING-R20,,P5,518,524,profile_segment,38,,6fb12d7de0ed9bde,experiments/results/Final-result/NYC-real-shuttle-v2/processed/NYC-REAL-V2/score_functions.jsonl.gz; exact corrected-V2 replay

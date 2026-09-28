@@ -1,0 +1,29 @@
+{
+  "figure_name": "fig03_exact_reference_v3",
+  "suggested_figure_number": "3",
+  "source_files": [
+    {
+      "original_relative_to_q1_figures_v2": "plot_data/exact_reference_final_q1.csv",
+      "copy_relative_to_v3": "plot_data/exact_reference_final_q1.csv",
+      "sha256": "38414e7c2aa2d75778c85effdc0284fb263e48cb77f5c6273d1f6a8fdedbadd9"
+    },
+    {
+      "original_relative_to_q1_figures_v2": "plot_data/error_bar_provenance.csv",
+      "copy_relative_to_v3": "plot_data/error_bar_provenance.csv",
+      "sha256": "b936c50f56f371db1736f01ffd58283b5f050b1d9d0656b75b32bb7f52f4c317"
+    }
+  ],
+  "exact_input_rows_filters": "Exact-reference CSV lines 2–7: all six runtime rows; PACE-B rows 3,5,7 for gaps and median agreement; oracle counts from line 2, consistent across all rows. Error provenance lines 2–7.",
+  "transformation": "None: runtime_s, runtime_half_iqr_s, relative_gap_pct, path_agreement_pct and oracle counts preserved. Log runtime axis. Rounded labels only.",
+  "script": "scripts/plot_exact_reference.py",
+  "script_sha256": "a1639b3d958125815de556bce598502ec055fab1e9f573461923e3f19cbf6a27",
+  "shared_script": "scripts/common.py",
+  "shared_script_sha256": "08ec341ca22a6a30e3c98ece23de8b5b00f713195f40081da8f0391e8f804600",
+  "builder_sha256": "ec0786d400fd1fc0a17a52e07b157a55065e2390c71a2d436c6bb04907ce07e6",
+  "final_pdf": "figures/fig03_exact_reference_v3.pdf",
+  "final_pdf_sha256": "92e8cae9cab706ef303a084978cc5cdf7b9e6b75628209021a2e1681c24820a2",
+  "final_png": "previews/fig03_exact_reference_v3.png",
+  "final_png_sha256": "a3b0d39b1306acbf5f20c24df219a90a2864e746d72b41920c5990bdb0a7d490",
+  "timestamp_utc": "2026-09-10T06:42:40.014601+00:00",
+  "statement": "No experiments were rerun. Figure derived exclusively from frozen data under q1_figures_v2."
+}

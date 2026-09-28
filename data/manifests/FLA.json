@@ -1,0 +1,90 @@
+{
+  "conversion_contract": {
+    "contract_id": "declared_centisecond_normalization-v1",
+    "formula": "minutes = DIMACS_weight * 1 / 6000",
+    "input_weight_unit": "declared_centisecond_normalization",
+    "internal_time_unit": "minutes",
+    "minutes_per_dimacs_weight": {
+      "denominator": 6000,
+      "numerator": 1
+    },
+    "provenance": "author release decision for this paper artifact. DIMACS documentation says transit weights are arbitrary, so this is a declared experimental normalization, not an official DIMACS physical-unit claim.",
+    "rounding_policy": "exact rational arithmetic internally where possible; deterministic decimal serialization with up to 9 digits after decimal, trimming trailing zeros"
+  },
+  "dataset_checksum": "19329caf5c0f725589bd30667f513ea4b6b6bbd24854cebd0ad36aa8b3e7b34d",
+  "generator": {
+    "generation_config_sha256": "405c008b3cd8507c348782f9a6a8160bae6a5c5773321d7ffabdd259a53933f1",
+    "name": "experiments/scripts/generate_dataset_assets.py",
+    "version": "pace-dataset-assets-v2"
+  },
+  "input_files": {
+    "coords": "EXCLUDED_EXTERNAL_INPUT/FLA/USA-road-d.FLA.co.gz",
+    "distance": "EXCLUDED_EXTERNAL_INPUT/FLA/USA-road-d.FLA.gr.gz",
+    "travel_time": "EXCLUDED_EXTERNAL_INPUT/FLA/USA-road-t.FLA.gr.gz"
+  },
+  "input_sha256": {
+    "coords": "d81d48c37a02b7e92bc658de0c8c6b18bb81f8ce381f9ed5665b4f6d0cded131",
+    "distance": "a42e4e71e3d46eaf9a1d33270aa69d52207b75521525774bde1ac4c8fe804d47",
+    "travel_time": "a316684184e78276c40828cdb2b5c098b315a9eb2f71a8f02e6220973af87658"
+  },
+  "materialize_zero_score_edges": false,
+  "multiplier_ranges": {
+    "evening": [
+      1.15,
+      2.5
+    ],
+    "morning": [
+      1.1,
+      2.0
+    ]
+  },
+  "num_arcs": 2712798,
+  "num_nodes": 1070376,
+  "output_files": [
+    "nodes.csv.gz",
+    "edges_static.csv.gz",
+    "travel_time_functions.jsonl.gz",
+    "score_functions.jsonl.gz",
+    "manifest.json",
+    "README_generated.md"
+  ],
+  "rush_windows": {
+    "evening": [
+      1020,
+      1200
+    ],
+    "morning": [
+      420,
+      600
+    ]
+  },
+  "schema_version": 3,
+  "score_edge_fraction": 0.2,
+  "score_intervals_per_rush": 3,
+  "score_max": 15,
+  "score_min": 1,
+  "score_output": {
+    "file": "score_functions.jsonl.gz",
+    "format": "gzip-compressed JSON Lines; each object contains an arc_id and piecewise-constant score_intervals as [start_minute, end_minute, score]; scores are zero from 1440 through 10080"
+  },
+  "seed": 42,
+  "selected_score_edge_count": 542559,
+  "temporal_attribute_checksum": "d07f1ca2fa37efccfb8f7e43584241aabd5976033aa8aee74483b00403a235b9",
+  "temporal_support": {
+    "end": 10080,
+    "extension_policy": "preserve first-day rush-window behavior over [0,1440]; extend travel time flat from 1440 to 10080 using the converted static travel time; extend score as zero over [1440,10080]; no periodic repetition; no query-time extrapolation",
+    "first_day_end": 1440,
+    "start": 0
+  },
+  "travel_time_output": {
+    "file": "travel_time_functions.jsonl.gz",
+    "format": "gzip-compressed JSON Lines; one object per arc; travel_time_breakpoints contains [minute, travel_time] points from 0 through 10080; minutes use declared DIMACS_weight/6000 normalization; values from 1440 through 10080 equal converted base_travel_time",
+    "integer_travel_times": false,
+    "temporal_support": {
+      "end": 10080,
+      "start": 0
+    },
+    "travel_time_decimals": 9
+  },
+  "unlisted_edges_have_score_zero": true
+}

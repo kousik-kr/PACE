@@ -1,0 +1,87 @@
+figure,panel,plotted_label,plotted_value,unit,value_id,derived,derivation,source_full_precision_value,matches_ledger
+A,a,PACE-X B=5 runtime,0.035536488000000005,s,V0006,false,,0.035536488000000005,true
+A,a,PACE-B B=5 runtime,0.023438241,s,V0008,false,,0.023438241,true
+A,b,B=5 relative gap,36.85565298613301,%,V0010,false,,36.85565298613301,true
+A,b,B=5 path agreement,0.0,%,V0011,false,,0.0,true
+A,a,PACE-X B=10 runtime,0.5347785540000001,s,V0012,false,,0.5347785540000001,true
+A,a,PACE-B B=10 runtime,0.0248255825,s,V0014,false,,0.0248255825,true
+A,b,B=10 relative gap,62.8364047663315,%,V0016,false,,62.8364047663315,true
+A,b,B=10 path agreement,0.0,%,V0017,false,,0.0,true
+A,a,PACE-X B=15 runtime,13.754814216,s,V0018,false,,13.754814216,true
+A,a,PACE-B B=15 runtime,0.023859959,s,V0020,false,,0.023859959,true
+A,b,B=15 relative gap,72.30263467839097,%,V0022,false,,72.30263467839097,true
+A,b,B=15 path agreement,0.0,%,V0023,false,,0.0,true
+A,a,oracle profiles tested,1009,profiles,V0003,false,,1009,true
+A,a,oracle profiles matched,1009,profiles,V0004,false,,1009,true
+B,a,Depth cap relative gap,0.0,%,V0026,false,,0.0,true
+B,a,Depth cap agreement,100.0,%,V0027,false,,100.0,true
+B,b,Depth cap runtime,0.0731976755,s,V0024,false,,0.0731976755,true
+B,a,Top-L relative gap,0.0,%,V0030,false,,0.0,true
+B,a,Top-L agreement,100.0,%,V0031,false,,100.0,true
+B,b,Top-L runtime,0.042554519,s,V0028,false,,0.042554519,true
+B,a,Single connector relative gap,36.85565298613301,%,V0034,false,,36.85565298613301,true
+B,a,Single connector agreement,0.0,%,V0035,false,,0.0,true
+B,b,Single connector runtime,0.028040792,s,V0032,false,,0.028040792,true
+B,a,$K_f$ relative gap,36.85565298613301,%,V0038,false,,36.85565298613301,true
+B,a,$K_f$ agreement,0.0,%,V0039,false,,0.0,true
+B,b,$K_f$ runtime,0.026942869,s,V0036,false,,0.026942869,true
+C,a,NY PACE-B runtime,3.2853846475,s,V0044,false,,3.2853846475,true
+C,b,NY PACE-B fully resolved,100.0,%,V0045,false,,100.0,true
+C,c,NY PACE-B returned full-window score,100.0,% of PACE-B,V0047;V0047,true,V0047.full_precision_value / V0047.full_precision_value * 100,376.89166666666665;376.89166666666665,true
+C,a,NY iSCOPE-Profile runtime,4.5059635364999995,s,V0049,false,,4.5059635364999995,true
+C,b,NY iSCOPE-Profile fully resolved,74.5,%,V0050,false,,74.5,true
+C,c,NY iSCOPE-Profile returned full-window score,78.40364355142044,% of PACE-B,V0052;V0047,true,V0052.full_precision_value / V0047.full_precision_value * 100,295.496798908341;376.89166666666665,true
+C,a,FLA PACE-B runtime,0.8874258385,s,V0054,false,,0.8874258385,true
+C,b,FLA PACE-B fully resolved,100.0,%,V0055,false,,100.0,true
+C,c,FLA PACE-B returned full-window score,100.0,% of PACE-B,V0057;V0057,true,V0057.full_precision_value / V0057.full_precision_value * 100,222.22916666666669;222.22916666666669,true
+C,a,FLA iSCOPE-Profile runtime,4.504820992,s,V0059,false,,4.504820992,true
+C,b,FLA iSCOPE-Profile fully resolved,81.0,%,V0060,false,,81.0,true
+C,c,FLA iSCOPE-Profile returned full-window score,78.25088949069922,% of PACE-B,V0062;V0057,true,V0062.full_precision_value / V0057.full_precision_value * 100,173.89629962443513;222.22916666666669,true
+C,a,CAL PACE-B runtime,0.967245197,s,V0064,false,,0.967245197,true
+C,b,CAL PACE-B fully resolved,100.0,%,V0065,false,,100.0,true
+C,c,CAL PACE-B returned full-window score,100.0,% of PACE-B,V0067;V0067,true,V0067.full_precision_value / V0067.full_precision_value * 100,306.6166666666667;306.6166666666667,true
+C,a,CAL iSCOPE-Profile runtime,4.5080162425,s,V0069,false,,4.5080162425,true
+C,b,CAL iSCOPE-Profile fully resolved,51.0,%,V0070,false,,51.0,true
+C,c,CAL iSCOPE-Profile returned full-window score,26.947607154170754,% of PACE-B,V0072;V0067,true,V0072.full_precision_value / V0067.full_precision_value * 100,82.62585480254657;306.6166666666667,true
+D,top,L=1 runtime,0.582480772,s,V0074,false,,0.582480772,true
+D,bottom,L=1 completion,100.0,%,V0075,false,,100.0,true
+D,top,L=2 runtime,1.0942719675,s,V0077,false,,1.0942719675,true
+D,bottom,L=2 completion,100.0,%,V0078,false,,100.0,true
+D,top,L=4 runtime,1.239529623,s,V0080,false,,1.239529623,true
+D,bottom,L=4 completion,87.5,%,V0081,false,,87.5,true
+D,top,L=8 runtime,1.4236458775,s,V0083,false,,1.4236458775,true
+D,bottom,L=8 completion,75.0,%,V0084,false,,75.0,true
+D,top,K_f=1 runtime,0.7109177495,s,V0086,false,,0.7109177495,true
+D,bottom,K_f=1 completion,100.0,%,V0087,false,,100.0,true
+D,top,K_f=2 runtime,1.239529623,s,V0089,false,,1.239529623,true
+D,bottom,K_f=2 completion,87.5,%,V0090,false,,87.5,true
+D,top,K_f=4 runtime,1.923511,s,V0092,false,,1.923511,true
+D,bottom,K_f=4 completion,75.0,%,V0093,false,,75.0,true
+D,top,K_f=8 runtime,1.58353315,s,V0095,false,,1.58353315,true
+D,bottom,K_f=8 completion,55.00000000000001,%,V0096,false,,55.00000000000001,true
+D,top,theta=0 runtime,0.503482335,s,V0104,false,,0.503482335,true
+D,bottom,theta=0 completion,20.0,%,V0105,false,,20.0,true
+D,bottom,theta=0 effective depth,0,effective depth,V0104,true,"min(nominal theta, 1) because the theta source uses L=1",0.503482335,true
+D,top,theta=1 runtime,0.6038330915,s,V0098,false,,0.6038330915,true
+D,bottom,theta=1 completion,100.0,%,V0099,false,,100.0,true
+D,bottom,theta=1 effective depth,1,effective depth,V0098,true,"min(nominal theta, 1) because the theta source uses L=1",0.6038330915,true
+D,top,theta=2 runtime,0.6000548905,s,V0101,false,,0.6000548905,true
+D,bottom,theta=2 completion,100.0,%,V0102,false,,100.0,true
+D,bottom,theta=2 effective depth,1,effective depth,V0101,true,"min(nominal theta, 1) because the theta source uses L=1",0.6000548905,true
+D,top,theta=3 runtime,0.6075687265,s,V0107,false,,0.6075687265,true
+D,bottom,theta=3 completion,100.0,%,V0108,false,,100.0,true
+D,bottom,theta=3 effective depth,1,effective depth,V0107,true,"min(nominal theta, 1) because the theta source uses L=1",0.6075687265,true
+E,runtime,window=120 runtime,3.2853846475,s,V0116,false,,3.2853846475,true
+E,score,window=120 score,376.89166666666665,score,V0117,false,,376.89166666666665,true
+E,runtime,window=240 runtime,2.903770699,s,V0128,false,,2.903770699,true
+E,score,window=240 score,291.5083333333333,score,V0129,false,,291.5083333333333,true
+E,runtime,window=360 runtime,3.0202767295,s,V0146,false,,3.0202767295,true
+E,score,window=360 score,235.75694444444446,score,V0147,false,,235.75694444444446,true
+E,runtime,rho=0.1 runtime,2.821723043,s,V0113,false,,2.821723043,true
+E,score,rho=0.1 score,374.39166666666665,score,V0114,false,,374.39166666666665,true
+E,runtime,rho=0.3 runtime,3.2853846475,s,V0119,false,,3.2853846475,true
+E,score,rho=0.3 score,376.89166666666665,score,V0120,false,,376.89166666666665,true
+E,runtime,rho=0.5 runtime,3.6228519125,s,V0125,false,,3.6228519125,true
+E,score,rho=0.5 score,382.9666666666667,score,V0126,false,,382.9666666666667,true
+E,runtime,density=5 runtime,1.2320615575,s,V0164,false,,1.2320615575,true
+E,runtime,density=40 runtime,1.693838243,s,V0167,false,,1.693838243,true

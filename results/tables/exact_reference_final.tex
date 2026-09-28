@@ -1,0 +1,24 @@
+\begin{table*}[t]
+\centering
+\caption{Independent correctness evidence and controlled exact reference.}
+\begin{tabular}{lrrr}
+\toprule
+Evidence & Count & Passes & Failures \\
+\midrule
+Deterministic fixtures & 9 & 9 & 0 \\
+Fixed-seed FIFO micro-instances & 1000 & 1000 & 0 \\
+Total full-profile comparisons & 1009 & 1009 & 0 \\
+\bottomrule
+\end{tabular}
+\vspace{2mm}
+\begin{tabular}{rrrrrrrr}
+\toprule
+$B$ & PACE-X (s) & PACE-B (s) & PACE-X score & PACE-B score & Gap (\%) & Agreement (\%) & n \\
+\midrule
+5 & 0.036 & 0.023 & 13.28 & 10.46 & 36.9 & 0.0 & 20 \\
+10 & 0.535 & 0.025 & 34.28 & 11.27 & 62.8 & 0.0 & 20 \\
+15 & 13.755 & 0.024 & 53.95 & 11.27 & 72.3 & 0.0 & 20 \\
+\bottomrule
+\end{tabular}
+\end{table*}
+\textit{Note.} The oracle validates micro-instances. The displayed PACE-X reference is GLOBAL\_CERTIFIED only on induced NY-CTRL, not full NY.

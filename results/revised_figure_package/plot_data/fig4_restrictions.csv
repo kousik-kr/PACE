@@ -1,0 +1,6 @@
+stage_directory,stage_label,n_logical_queries,n_completed_logical_queries,median_runtime_s_completed_queries,median_relative_gap_pct_vs_pace_x,median_path_agreement_pct_checksum_proxy,checksum_equal_queries,source_note
+plus-theta,Depth cap,20,20,0.0731976755,0.0,100.0,12,Checksum equality is the available raw proxy; path-agreement fraction is not serialized.
+plus-l,Top-L,20,20,0.042554519,0.0,100.0,16,Checksum equality is the available raw proxy; path-agreement fraction is not serialized.
+plus-fastconnector,Single connector,20,20,0.028040792,39.24952117633122,0.0,5,Checksum equality is the available raw proxy; path-agreement fraction is not serialized.
+plus-kf,Kf retention,20,20,0.026942869,39.24952117633122,0.0,5,Checksum equality is the available raw proxy; path-agreement fraction is not serialized.
+plus-mb,Mb production guard (not requested Figure 4 stage),20,20,0.0290188845,39.24952117633122,0.0,5,Checksum equality is the available raw proxy; path-agreement fraction is not serialized.

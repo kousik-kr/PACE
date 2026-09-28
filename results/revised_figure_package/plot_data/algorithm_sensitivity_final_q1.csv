@@ -1,0 +1,13 @@
+parameter,setting,setting_label,effective_depth,runtime_s,runtime_value_id,completion_pct,completion_value_id,source,configuration_note,canonical_default
+L,1,1,,0.582480772,V0074,100.0,V0075,experiments/results/Final-result/paper_existing/e14_parameter_sensitivity.csv,Frozen E14 aggregate; source-defined configuration/workload.,false
+L,2,2,,1.0942719675,V0077,100.0,V0078,experiments/results/Final-result/paper_existing/e14_parameter_sensitivity.csv,Frozen E14 aggregate; source-defined configuration/workload.,false
+L,4,4,,1.239529623,V0080,87.5,V0081,experiments/results/Final-result/paper_existing/e14_parameter_sensitivity.csv,Frozen E14 aggregate; source-defined configuration/workload.,true
+L,8,8,,1.4236458775,V0083,75.0,V0084,experiments/results/Final-result/paper_existing/e14_parameter_sensitivity.csv,Frozen E14 aggregate; source-defined configuration/workload.,false
+K_f,1,1,,0.7109177495,V0086,100.0,V0087,experiments/results/Final-result/paper_existing/e14_parameter_sensitivity.csv,Frozen E14 aggregate; source-defined configuration/workload.,false
+K_f,2,2,,1.239529623,V0089,87.5,V0090,experiments/results/Final-result/paper_existing/e14_parameter_sensitivity.csv,Frozen E14 aggregate; source-defined configuration/workload.,true
+K_f,4,4,,1.923511,V0092,75.0,V0093,experiments/results/Final-result/paper_existing/e14_parameter_sensitivity.csv,Frozen E14 aggregate; source-defined configuration/workload.,false
+K_f,8,8,,1.58353315,V0095,55.00000000000001,V0096,experiments/results/Final-result/paper_existing/e14_parameter_sensitivity.csv,Frozen E14 aggregate; source-defined configuration/workload.,false
+theta,0,0,0,0.503482335,V0104,20.0,V0105,experiments/results/Final-result/manuscript_missing_runs/results/fasttrack_parameter_final/work/batch-*/java-results.jsonl,"Fast-only connector source with L=1; theta_eff=min(theta,|A_q|).",false
+theta,1,1,1,0.6038330915,V0098,100.0,V0099,experiments/results/Final-result/manuscript_missing_runs/results/fasttrack_parameter_final/work/batch-*/java-results.jsonl,"Fast-only connector source with L=1; theta_eff=min(theta,|A_q|).",false
+theta,2,2,1,0.6000548905,V0101,100.0,V0102,experiments/results/Final-result/manuscript_missing_runs/results/fasttrack_parameter_final/work/batch-*/java-results.jsonl,"Fast-only connector source with L=1; theta_eff=min(theta,|A_q|).",true
+theta,3,3,1,0.6075687265,V0107,100.0,V0108,experiments/results/Final-result/manuscript_missing_runs/results/fasttrack_parameter_final/work/batch-*/java-results.jsonl,"Fast-only connector source with L=1; theta_eff=min(theta,|A_q|).",false

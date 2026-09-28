@@ -1,0 +1,7 @@
+dataset,method,window_minutes,rho,n_total_logical_queries,n_completed_logical_queries,reported_resolution_pct,median_completed_query_runtime_s,minimum_completed_query_runtime_s,maximum_completed_query_runtime_s,runtime_ge_5s_completed_queries,reported_full_window_score_zero_unreported,runtime_cutoff_semantics,notes
+NY,,,,200,200,,,,,,,,
+NY,,,,200,0,,,,,,,,
+FLA,,,,200,196,,,,,,,,
+FLA,,,,200,0,,,,,,,,
+CAL,,,,200,200,,,,,,,,
+CAL,,,,200,0,,,,,,,,

@@ -1,0 +1,24 @@
+{
+  "figure_name": "fig04_successive_policy_tradeoff_v3",
+  "suggested_figure_number": "4",
+  "source_files": [
+    {
+      "original_relative_to_q1_figures_v2": "plot_data/bounded_policy_final_q1.csv",
+      "copy_relative_to_v3": "plot_data/bounded_policy_final_q1.csv",
+      "sha256": "93c2cf742c6c2d93e5fe8879d39c89dcbd02f1f74e13e2ab670cef897cc5e65e"
+    }
+  ],
+  "exact_input_rows_filters": "CSV lines 2–5; all stage_index=0,1,2,3 rows, in that introduction order.",
+  "transformation": "Map x=runtime_s and y=relative_gap_pct; label path_agreement_pct. No jitter or new statistic. Runtime half-IQR preserved in CSV but not drawn because the final-stage bars overlap.",
+  "script": "scripts/plot_policy_tradeoff.py",
+  "script_sha256": "9671df86961705ef30eea63c7b3958684bdbba2dc7c8c2841655e45cafe06f3c",
+  "shared_script": "scripts/common.py",
+  "shared_script_sha256": "08ec341ca22a6a30e3c98ece23de8b5b00f713195f40081da8f0391e8f804600",
+  "builder_sha256": "ec0786d400fd1fc0a17a52e07b157a55065e2390c71a2d436c6bb04907ce07e6",
+  "final_pdf": "figures/fig04_successive_policy_tradeoff_v3.pdf",
+  "final_pdf_sha256": "c51f71ea8ffa27e4152be91ac9aa20e75d20731ae70b9dbff5d01e13ba594ef6",
+  "final_png": "previews/fig04_successive_policy_tradeoff_v3.png",
+  "final_png_sha256": "81c60ec3cece047459bfc34129d90b51922b845f29feaf4f47079af1b142f518",
+  "timestamp_utc": "2026-09-10T06:42:40.014601+00:00",
+  "statement": "No experiments were rerun. Figure derived exclusively from frozen data under q1_figures_v2."
+}

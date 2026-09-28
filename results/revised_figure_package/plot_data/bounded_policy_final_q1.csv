@@ -1,0 +1,5 @@
+stage_index,display_stage,source_stage,runtime_s,runtime_value_id,runtime_half_iqr_s,runtime_iqr_source,relative_gap_pct,gap_value_id,path_agreement_pct,path_agreement_value_id
+0,Depth cap,+theta,0.0731976755,V0024,0.021930814000000003,"reports/pace_revision/final_publication/plot_data/bounded_policy_final.csv:stage=+theta,runtime_iqr_s",0.0,V0026,100.0,V0027
+1,Top-L,+L,0.042554519,V0028,0.009961947625000002,"reports/pace_revision/final_publication/plot_data/bounded_policy_final.csv:stage=+L,runtime_iqr_s",0.0,V0030,100.0,V0031
+2,Single connector,+FastConnector,0.028040792,V0032,0.0072991538750000005,"reports/pace_revision/final_publication/plot_data/bounded_policy_final.csv:stage=+FastConnector,runtime_iqr_s",36.85565298613301,V0034,0.0,V0035
+3,$K_f$,+Kf,0.026942869,V0036,0.006783408624999999,"reports/pace_revision/final_publication/plot_data/bounded_policy_final.csv:stage=+Kf,runtime_iqr_s",36.85565298613301,V0038,0.0,V0039

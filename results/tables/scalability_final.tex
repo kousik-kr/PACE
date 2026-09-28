@@ -1,0 +1,17 @@
+\begin{table*}[t]
+\centering
+\caption{Bounded execution on the final W120/RHO030 slice.}
+\begin{tabular}{llrrrrrl}
+\toprule
+Dataset & Method & Runtime (s) & Fully resolved (\%) & Mean coverage (\%) & Full-window score & Peak RSS (GiB) & Status \\
+\midrule
+NY & PACE-B & 3.285 & 100.0 & 100.0 & 376.89 & 12.54 & COMPLETED \\
+NY & iSCOPE-Profile & 4.506 & 74.5 & 74.5 & 295.50 & 9.88 & TIME\_CAPPED\_NOT\_CERTIFIED / QUERY\_DEADLINE \\
+FLA & PACE-B & 0.887 & 100.0 & 100.0 & 222.23 & 49.49 & COMPLETED \\
+FLA & iSCOPE-Profile & 4.505 & 81.0 & 81.0 & 173.90 & 17.35 & TIME\_CAPPED\_NOT\_CERTIFIED / QUERY\_DEADLINE \\
+CAL & PACE-B & 0.967 & 100.0 & 100.0 & 306.62 & 42.29 & COMPLETED \\
+CAL & iSCOPE-Profile & 4.508 & 51.0 & 51.0 & 82.63 & 52.31 & TIME\_CAPPED\_NOT\_CERTIFIED / QUERY\_DEADLINE \\
+\bottomrule
+\end{tabular}
+\end{table*}
+\textit{Note.} Observation = logical query; three trials are summarized by query median. iSCOPE is anytime at 5 s; unresolved regions contribute zero to full-window score. RSS is query-phase process peak under shared preprocessing. PACE-B/iSCOPE use 24/1 workers; NY/CAL PACE-B retain configured 10 s safety timeout, FLA uses a frozen 5 s source.

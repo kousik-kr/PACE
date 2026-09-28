@@ -1,0 +1,24 @@
+{
+  "figure_name": "fig07_workload_sensitivity_v3",
+  "suggested_figure_number": "7",
+  "source_files": [
+    {
+      "original_relative_to_q1_figures_v2": "plot_data/workload_sensitivity_final_q1.csv",
+      "copy_relative_to_v3": "plot_data/workload_sensitivity_final_q1.csv",
+      "sha256": "017a572e1c49cc91a563370f7af09cd556870596f6876d32b1149c06a4047d1e"
+    }
+  ],
+  "exact_input_rows_filters": "CSV lines 2–4: window=120,240,360; lines 5–7: rho=.1,.3,.5; lines 8–9: density=5,40. Runtime for every row; scores only for window/rho. Density score fields remain blank.",
+  "transformation": "None. Two measured density points use markers only; no density interpolation and no density score panel.",
+  "script": "scripts/plot_workload_sensitivity.py",
+  "script_sha256": "d9e0de9077a38fcd02c690e9f4d6f23f3d9495a2535c403299e1ed96e43b1a84",
+  "shared_script": "scripts/common.py",
+  "shared_script_sha256": "08ec341ca22a6a30e3c98ece23de8b5b00f713195f40081da8f0391e8f804600",
+  "builder_sha256": "ec0786d400fd1fc0a17a52e07b157a55065e2390c71a2d436c6bb04907ce07e6",
+  "final_pdf": "figures/fig07_workload_sensitivity_v3.pdf",
+  "final_pdf_sha256": "447bd86ead441e7446060eeff1162ff907acb2d2d0dafde8a319b2907e513da1",
+  "final_png": "previews/fig07_workload_sensitivity_v3.png",
+  "final_png_sha256": "85b07f48b6499c0c1e7a81b68b1d3566946a9ef73b4f1f9f88a9f39a95119ff5",
+  "timestamp_utc": "2026-09-10T06:42:40.014601+00:00",
+  "statement": "No experiments were rerun. Figure derived exclusively from frozen data under q1_figures_v2."
+}

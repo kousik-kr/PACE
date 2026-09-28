@@ -1,0 +1,7 @@
+dataset,method,runtime_s,runtime_value_id,fully_resolved_pct,fully_resolved_value_id,full_window_score,score_value_id,relative_utility_pct,relative_utility_source_ids,relative_utility_formula,status,deadline_s
+NY,PACE-B,3.2853846475,V0044,100.0,V0045,376.89166666666665,V0047,100.0,V0047;V0047,V0047.full_precision_value / V0047.full_precision_value * 100,Complete,5
+NY,iSCOPE-Profile,4.5059635364999995,V0049,74.5,V0050,295.496798908341,V0052,78.40364355142044,V0052;V0047,V0052.full_precision_value / V0047.full_precision_value * 100,5-s capped,5
+FLA,PACE-B,0.8874258385,V0054,100.0,V0055,222.22916666666669,V0057,100.0,V0057;V0057,V0057.full_precision_value / V0057.full_precision_value * 100,Complete,5
+FLA,iSCOPE-Profile,4.504820992,V0059,81.0,V0060,173.89629962443513,V0062,78.25088949069922,V0062;V0057,V0062.full_precision_value / V0057.full_precision_value * 100,5-s capped,5
+CAL,PACE-B,0.967245197,V0064,100.0,V0065,306.6166666666667,V0067,100.0,V0067;V0067,V0067.full_precision_value / V0067.full_precision_value * 100,Complete,5
+CAL,iSCOPE-Profile,4.5080162425,V0069,51.0,V0070,82.62585480254657,V0072,26.947607154170754,V0072;V0067,V0072.full_precision_value / V0067.full_precision_value * 100,5-s capped,5

@@ -1,0 +1,11 @@
+figure,panel,setting,median,half_iqr,source,value_id_or_source_reference,validated
+exact_reference_final_q1,a,B=5; PACE-X,0.035536488000000005,0.004915667374999998,reports/pace_revision/controlled_exact_metrics.csv,V0006;reports/pace_revision/controlled_exact_metrics.csv:pace_x_runtime_iqr_s,true
+exact_reference_final_q1,a,B=5; PACE-B,0.023438241,0.005385637874999998,reports/pace_revision/controlled_exact_metrics.csv,V0008;reports/pace_revision/controlled_exact_metrics.csv:pace_b_runtime_iqr_s,true
+exact_reference_final_q1,a,B=10; PACE-X,0.5347785540000001,0.16905660125,reports/pace_revision/controlled_exact_metrics.csv,V0012;reports/pace_revision/controlled_exact_metrics.csv:pace_x_runtime_iqr_s,true
+exact_reference_final_q1,a,B=10; PACE-B,0.0248255825,0.0034143904999999995,reports/pace_revision/controlled_exact_metrics.csv,V0014;reports/pace_revision/controlled_exact_metrics.csv:pace_b_runtime_iqr_s,true
+exact_reference_final_q1,a,B=15; PACE-X,13.754814216,10.790391678375,reports/pace_revision/controlled_exact_metrics.csv,V0018;reports/pace_revision/controlled_exact_metrics.csv:pace_x_runtime_iqr_s,true
+exact_reference_final_q1,a,B=15; PACE-B,0.023859959,0.00369986875,reports/pace_revision/controlled_exact_metrics.csv,V0020;reports/pace_revision/controlled_exact_metrics.csv:pace_b_runtime_iqr_s,true
+bounded_policy_final_q1,b,Depth cap,0.0731976755,0.021930814000000003,reports/pace_revision/final_publication/plot_data/bounded_policy_final.csv,"V0024;reports/pace_revision/final_publication/plot_data/bounded_policy_final.csv:stage=+theta,runtime_iqr_s",true
+bounded_policy_final_q1,b,Top-L,0.042554519,0.009961947625000002,reports/pace_revision/final_publication/plot_data/bounded_policy_final.csv,"V0028;reports/pace_revision/final_publication/plot_data/bounded_policy_final.csv:stage=+L,runtime_iqr_s",true
+bounded_policy_final_q1,b,Single connector,0.028040792,0.0072991538750000005,reports/pace_revision/final_publication/plot_data/bounded_policy_final.csv,"V0032;reports/pace_revision/final_publication/plot_data/bounded_policy_final.csv:stage=+FastConnector,runtime_iqr_s",true
+bounded_policy_final_q1,b,$K_f$,0.026942869,0.006783408624999999,reports/pace_revision/final_publication/plot_data/bounded_policy_final.csv,"V0036;reports/pace_revision/final_publication/plot_data/bounded_policy_final.csv:stage=+Kf,runtime_iqr_s",true

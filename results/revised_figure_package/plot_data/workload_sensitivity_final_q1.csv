@@ -1,0 +1,9 @@
+parameter,x_value,x_label,fixed_window,fixed_rho,runtime_s,runtime_value_id,score,score_value_id,completion_pct,completion_value_id,source,configuration_note
+window,120,120,120,0.3,3.2853846475,V0116,376.89166666666665,V0117,100.0,V0118,experiments/results/Final-result/paper_existing/t03_query_sensitivity_ny.csv,20% source default
+window,240,240,240,0.3,2.903770699,V0128,291.5083333333333,V0129,100.0,V0130,experiments/results/Final-result/paper_existing/t03_query_sensitivity_ny.csv,20% source default
+window,360,360,360,0.3,3.0202767295,V0146,235.75694444444446,V0147,100.0,V0148,experiments/results/Final-result/paper_existing/t03_query_sensitivity_ny.csv,20% source default
+rho,0.1,0.10,120,0.1,2.821723043,V0113,374.39166666666665,V0114,100.0,V0115,experiments/results/Final-result/paper_existing/t03_query_sensitivity_ny.csv,20% source default
+rho,0.3,0.30,120,0.3,3.2853846475,V0119,376.89166666666665,V0120,100.0,V0121,experiments/results/Final-result/paper_existing/t03_query_sensitivity_ny.csv,20% source default
+rho,0.5,0.50,120,0.5,3.6228519125,V0125,382.9666666666667,V0126,100.0,V0127,experiments/results/Final-result/paper_existing/t03_query_sensitivity_ny.csv,20% source default
+density,5,5,120,0.3,1.2320615575,V0164,,,100.0,V0166,experiments/results/Final-result/manuscript_missing_runs/results/fasttrack_density_final/work/batch-cfdc4e34237f6852d9f371b6/java-results.jsonl,fast-connector sensitivity configuration
+density,40,40,120,0.3,1.693838243,V0167,,,100.0,V0169,experiments/results/Final-result/manuscript_missing_runs/results/fasttrack_density_final/work/batch-e2ae7c0c5fe8bd3e6732a835/java-results.jsonl,fast-connector sensitivity configuration

@@ -1,0 +1,15 @@
+\begin{table}[t]
+\centering
+\caption{Bounded-policy transition in controlled NY.}
+\begin{tabular}{lrrrrr}
+\toprule
+Stage & Runtime & Score & Regret & Gap (\%) & Agree. (\%) \\
+\midrule
+Unbounded (+theta) & 0.073 & 11.58 & 0.00 & 0.0 & 100.0 \\
++ top-L pivots & 0.043 & 13.28 & 0.00 & 0.0 & 100.0 \\
++ single fastest connector & 0.028 & 10.46 & 5.99 & 36.9 & 0.0 \\
++ K\_f retention & 0.027 & 10.46 & 5.99 & 36.9 & 0.0 \\
+\bottomrule
+\end{tabular}
+\end{table}
+\textit{Note.} The single-fastest-connector step is the first major observed quality transition; +M_b is supplement-only.

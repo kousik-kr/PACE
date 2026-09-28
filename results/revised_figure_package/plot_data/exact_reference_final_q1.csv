@@ -1,0 +1,7 @@
+panel,budget_B,method,runtime_s,runtime_value_id,runtime_half_iqr_s,runtime_iqr_source,relative_gap_pct,gap_value_id,path_agreement_pct,path_agreement_value_id,oracle_tested,oracle_tested_value_id,oracle_passed,oracle_passed_value_id
+a,5,PACE-X,0.035536488000000005,V0006,0.004915667374999998,reports/pace_revision/controlled_exact_metrics.csv:pace_x_runtime_iqr_s,,,,,1009,V0003,1009,V0004
+a,5,PACE-B,0.023438241,V0008,0.005385637874999998,reports/pace_revision/controlled_exact_metrics.csv:pace_b_runtime_iqr_s,36.85565298613301,V0010,0.0,V0011,1009,V0003,1009,V0004
+a,10,PACE-X,0.5347785540000001,V0012,0.16905660125,reports/pace_revision/controlled_exact_metrics.csv:pace_x_runtime_iqr_s,,,,,1009,V0003,1009,V0004
+a,10,PACE-B,0.0248255825,V0014,0.0034143904999999995,reports/pace_revision/controlled_exact_metrics.csv:pace_b_runtime_iqr_s,62.8364047663315,V0016,0.0,V0017,1009,V0003,1009,V0004
+a,15,PACE-X,13.754814216,V0018,10.790391678375,reports/pace_revision/controlled_exact_metrics.csv:pace_x_runtime_iqr_s,,,,,1009,V0003,1009,V0004
+a,15,PACE-B,0.023859959,V0020,0.00369986875,reports/pace_revision/controlled_exact_metrics.csv:pace_b_runtime_iqr_s,72.30263467839097,V0022,0.0,V0023,1009,V0003,1009,V0004
